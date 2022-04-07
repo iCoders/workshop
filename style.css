@@ -1,0 +1,74 @@
+.highlight-container {
+  background: #e8e8e8;
+  padding: 25px 20px;
+  color: #000;
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.venue,
+.date,
+.price {margin: 0 auto 20px;}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: inline-block;
+  padding: 17px 32px;
+  background: rgba(0, 0, 0, 1);
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 100px;
+}
+
+  .button:hover {background: rgba(0, 0, 0, 0.6);}
+
+@media (max-width: 736px) {
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  .sm-user-ui .sm-tile-info .sm-tile-title {
+    font-size: 4px;
+  }
+
+  .button {
+    padding: 13px 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .hightlight-container {
+    padding: 10px 5px;
+    text-align: left;
+  }
+
+}
